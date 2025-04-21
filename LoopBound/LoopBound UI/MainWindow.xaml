@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoopBound_UI"
         mc:Ignorable="d"
-        Title="LoopBound" Height="680" Width="780">
+        Title="LoopBound" Height="680" Width="780"
+        Focusable="True"
+        KeyDown="Window_KeyDown">
     <Grid>
 
         <Grid.RowDefinitions>

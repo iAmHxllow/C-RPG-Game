@@ -26,5 +26,36 @@ namespace LoopBound_UI
             _gameSession = new GameSession();
             DataContext = _gameSession;
         }
+
+        /// Event handler for the Keyboard movement
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Current player margin
+            var margin = Player.Margin;
+
+            // Adjust the margin based on the key pressed
+            const int moveAmount = 10; // Number of pixels to move
+            switch (e.Key)
+            {
+                case Key.Up:
+                    margin.Top -= moveAmount;
+                    margin.Bottom += moveAmount;
+                    break;
+                case Key.Down:
+                    margin.Top += moveAmount;
+                    margin.Bottom -= moveAmount;
+                    break;
+                case Key.Left:
+                    margin.Left -= moveAmount;
+                    margin.Right += moveAmount;
+                    break;
+                case Key.Right:
+                    margin.Left += moveAmount;
+                    margin.Right -= moveAmount;
+                    break;
+            }
+
+            Player.Margin = margin;
+        }
     }
 }
