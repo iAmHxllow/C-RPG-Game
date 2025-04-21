@@ -30,31 +30,52 @@ namespace LoopBound_UI
         /// Event handler for the Keyboard movement
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            // Current player margin
+            // Current margin of the Player image
             var margin = Player.Margin;
 
+            // Define boundaries
+            const int leftBound = 0;
+            const int topBound = 0;
+            const int rightBound = 700; // Width of the map
+            const int bottomBound = 410; // Height of the map
+
+            // Movement amount
+            const int moveAmount = 10;
+
             // Adjust the margin based on the key pressed
-            const int moveAmount = 10; // Number of pixels to move
             switch (e.Key)
             {
                 case Key.Up:
-                    margin.Top -= moveAmount;
-                    margin.Bottom += moveAmount;
+                    if (margin.Top - moveAmount >= topBound)
+                    {
+                        margin.Top -= moveAmount;
+                        margin.Bottom += moveAmount;
+                    }
                     break;
                 case Key.Down:
-                    margin.Top += moveAmount;
-                    margin.Bottom -= moveAmount;
+                    if (margin.Top + moveAmount <= bottomBound)
+                    {
+                        margin.Top += moveAmount;
+                        margin.Bottom -= moveAmount;
+                    }
                     break;
                 case Key.Left:
-                    margin.Left -= moveAmount;
-                    margin.Right += moveAmount;
+                    if (margin.Left - moveAmount >= leftBound)
+                    {
+                        margin.Left -= moveAmount;
+                        margin.Right += moveAmount;
+                    }
                     break;
                 case Key.Right:
-                    margin.Left += moveAmount;
-                    margin.Right -= moveAmount;
+                    if (margin.Left + moveAmount <= rightBound)
+                    {
+                        margin.Left += moveAmount;
+                        margin.Right -= moveAmount;
+                    }
                     break;
             }
 
+            // Apply the updated margin back to the Player image
             Player.Margin = margin;
         }
     }
