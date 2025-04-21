@@ -5,20 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoopBound_UI"
         mc:Ignorable="d"
-        Title="LoopBound" Height="728" Width="1024">
+        Title="LoopBound" Height="680" Width="780">
     <Grid>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="260"/>
+            <RowDefinition Height="150"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Label Grid.Row="0" Grid.Column="0" Content="Main Screen" Background="Brown"></Label>
-        <Label Grid.Row="1" Grid.Column="0" Content="Interact Bar" Background="DarkGray"></Label>
+        <Label x:Name="MainScreen" Grid.Row="0" Grid.Column="0" Background="Black">
+            <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Map 1.png" Width="770"/>
+        </Label>
+        <Image x:Name="Player" Height="60" Source="/Assets/Player.png" Margin="10,332,705,122"/>
+        <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">
+            <Image x:Name="UI_Bar" Source="/Assets/Normal UI Bar.png" Stretch="Fill" Width="770"/>
+        </Label>
+        <Image x:Name="Heart_Icon" Margin="432,57,308,56" Source="/Assets/Heart Icon.png" Width="40" Height="37" Grid.Row="1" Stretch="Fill"/>
 
     </Grid>
 </Window>

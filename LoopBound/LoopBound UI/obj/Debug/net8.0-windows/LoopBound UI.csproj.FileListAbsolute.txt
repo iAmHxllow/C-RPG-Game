@@ -1,21 +1,25 @@
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.exe
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.deps.json
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.runtimeconfig.json
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.dll
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.pdb
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\App.g.cs
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI_MarkupCompile.cache
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI_MarkupCompile.lref
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\MainWindow.baml
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.g.resources
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.GeneratedMSBuildEditorConfig.editorconfig
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.AssemblyInfoInputs.cache
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.AssemblyInfo.cs
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.csproj.CoreCompileInputs.cache
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.sourcelink.json
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.dll
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\refint\LoopBound UI.dll
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.pdb
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.genruntimeconfig.cache
-C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\ref\LoopBound UI.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.exe
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.deps.json
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.runtimeconfig.json
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\LoopBound UI.pdb
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\Engine.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\bin\Debug\net8.0-windows\Engine.pdb
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\App.g.cs
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI_MarkupCompile.cache
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI_MarkupCompile.lref
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\MainWindow.baml
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.g.resources
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.AssemblyInfo.cs
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.sourcelink.json
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBoun.19A3D7DC.Up2Date
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\refint\LoopBound UI.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.pdb
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.genruntimeconfig.cache
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound V2\LoopBound UI\obj\Debug\net8.0-windows\ref\LoopBound UI.dll

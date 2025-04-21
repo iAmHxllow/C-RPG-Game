@@ -9,4 +9,22 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\Heart Icon.png" />
+    <None Remove="Assets\Map 1.png" />
+    <None Remove="Assets\Normal UI Bar.png" />
+    <None Remove="Assets\Player.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Heart Icon.png" />
+    <Resource Include="Assets\Map 1.png" />
+    <Resource Include="Assets\Normal UI Bar.png" />
+    <Resource Include="Assets\Player.png" />
+  </ItemGroup>
+
 </Project>
