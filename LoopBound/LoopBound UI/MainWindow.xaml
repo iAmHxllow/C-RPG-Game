@@ -20,11 +20,11 @@
         <Label x:Name="MainScreen" Grid.Row="0" Grid.Column="0" Background="Black">
             <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Map 1.png" Width="770"/>
         </Label>
-        <Image x:Name="Player" Height="60" Source="/Assets/Player.png" Margin="10,332,705,122"/>
+        <Image x:Name="Player" Source="/Assets/Player.png" Margin="22,286,660,127" Cursor="ArrowCD"/>
         <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">
             <Image x:Name="UI_Bar" Source="/Assets/Normal UI Bar.png" Stretch="Fill" Width="770"/>
         </Label>
-        <Image x:Name="Heart_Icon" Margin="432,57,308,56" Source="/Assets/Heart Icon.png" Width="40" Height="37" Grid.Row="1" Stretch="Fill"/>
+        <Image x:Name="Heart_Icon" Margin="34,57,680,57" Source="/Assets/Heart Icon.png" Grid.Row="1"/>
 
     </Grid>
 </Window>
