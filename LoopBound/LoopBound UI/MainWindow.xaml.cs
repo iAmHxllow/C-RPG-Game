@@ -18,6 +18,14 @@ namespace LoopBound_UI
     public partial class MainWindow : Window
     {
         private GameSession _gameSession;
+                                                       // X, Y, Width, Height of the restricted area
+        private readonly Rect _restrictedZone1 = new Rect(0, 0, 310, 277); // restricted area
+        private readonly Rect _restrictedZone2 = new Rect(454, 0, 316, 276); // restricted area
+        private readonly Rect _restrictedZone3 = new Rect(310, 0, 144, 204); // restricted area
+        private readonly Rect _restrictedZone4 = new Rect(0, 426, 770, 86); // restricted area
+
+
+
         public MainWindow()
         {
             InitializeComponent();
@@ -30,7 +38,7 @@ namespace LoopBound_UI
         /// Event handler for the Keyboard movement
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            // Current margin of the Player image
+            // Get the current margin of the Player image
             var margin = Player.Margin;
 
             // Define boundaries
@@ -42,41 +50,53 @@ namespace LoopBound_UI
             // Movement amount
             const int moveAmount = 10;
 
-            // Adjust the margin based on the key pressed
+            // Calculate the player's new position
+            Thickness newMargin = margin;
             switch (e.Key)
             {
                 case Key.Up:
                     if (margin.Top - moveAmount >= topBound)
                     {
-                        margin.Top -= moveAmount;
-                        margin.Bottom += moveAmount;
+                        newMargin.Top -= moveAmount;
+                        newMargin.Bottom += moveAmount;
                     }
                     break;
                 case Key.Down:
                     if (margin.Top + moveAmount <= bottomBound)
                     {
-                        margin.Top += moveAmount;
-                        margin.Bottom -= moveAmount;
+                        newMargin.Top += moveAmount;
+                        newMargin.Bottom -= moveAmount;
                     }
                     break;
                 case Key.Left:
                     if (margin.Left - moveAmount >= leftBound)
                     {
-                        margin.Left -= moveAmount;
-                        margin.Right += moveAmount;
+                        newMargin.Left -= moveAmount;
+                        newMargin.Right += moveAmount;
                     }
                     break;
                 case Key.Right:
                     if (margin.Left + moveAmount <= rightBound)
                     {
-                        margin.Left += moveAmount;
-                        margin.Right -= moveAmount;
+                        newMargin.Left += moveAmount;
+                        newMargin.Right -= moveAmount;
                     }
                     break;
             }
 
-            // Apply the updated margin back to the Player image
-            Player.Margin = margin;
+            // Check if the new position intersects with any restricted zone
+            Rect playerRect = new Rect(newMargin.Left, newMargin.Top, Player.ActualWidth, Player.ActualHeight);
+            if (!IsIntersectingRestrictedZones(playerRect))
+            {
+                // Apply the updated margin back to the Player image
+                Player.Margin = newMargin;
+            }
+        }
+
+        private bool IsIntersectingRestrictedZones(Rect playerRect)
+        {
+            // Check if the player's rectangle intersects with any restricted zone
+            return playerRect.IntersectsWith(_restrictedZone1) || playerRect.IntersectsWith(_restrictedZone2) || playerRect.IntersectsWith(_restrictedZone3) || playerRect.IntersectsWith(_restrictedZone4);
         }
     }
 }
