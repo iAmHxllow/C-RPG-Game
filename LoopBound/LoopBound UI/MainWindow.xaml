@@ -21,32 +21,8 @@
 
         <!-- Background Map -->
         <Label x:Name="MainScreen" Grid.Row="0" Grid.Column="0" Background="Black">
-            <Grid>
-                <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Map 1.png" Width="770"/>
-
-                <!-- Canvas for Restricted Zones -->
-                <Canvas x:Name="RestrictedZonesOverlay" IsHitTestVisible="False">
-                    
-                    <!-- Restricted Zone 1 -->
-                    <Rectangle Width="310" Height="277"
-                              Fill="Red" Opacity="0.5" Stroke="Black" StrokeThickness="2" RenderTransformOrigin="2.575,0.62" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-
-                    <!-- Restricted Zone 2 -->
-                    <Rectangle Canvas.Left="454" Width="316" Height="276"
-                              Fill="Red" Opacity="0.5" Stroke="Black" StrokeThickness="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-                    <!-- Restricted Zone 3 -->
-                    <Rectangle Canvas.Left="310" Width="144" Height="204"
-                        Fill="Red" Opacity="0.5" Stroke="Black" StrokeThickness="2" RenderTransformOrigin="2.575,0.62" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
-                    <!-- Restricted Zone 4-->
-                    <Rectangle Width="770" Height="86"
-                        Fill="Red" Opacity="0.5" Stroke="Black" StrokeThickness="2" RenderTransformOrigin="2.575,0.62" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="418"/>
-
-                </Canvas>
-            </Grid>
+            <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Map 1.png" Width="770" Height="504"/>
         </Label>
-
 
         <Image x:Name="Player" Source="/Assets/Player.png" Margin="22,286,660,127" Cursor="ArrowCD"/>
         <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">

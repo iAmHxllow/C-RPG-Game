@@ -38,7 +38,7 @@ namespace LoopBound_UI
         /// Event handler for the Keyboard movement
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
-            // Get the current margin of the Player image
+            // Current margin of the Player image
             var margin = Player.Margin;
 
             // Define boundaries
