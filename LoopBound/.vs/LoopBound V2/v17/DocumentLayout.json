@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\loopbound ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +15,12 @@
       "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\loopbound ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\viewmodels\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\viewmodels\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\viewmodels\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\viewmodels\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LoopBound UI\\MainWindow.xaml",
+              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml",
+              "RelativeToolTip": "LoopBound UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-21T15:57:11.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Player.cs",
@@ -47,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\ViewModels\\GameSession.cs",
               "RelativeDocumentMoniker": "Engine\\ViewModels\\GameSession.cs",
@@ -61,18 +73,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "LoopBound UI\\MainWindow.xaml",
-              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml",
-              "RelativeToolTip": "LoopBound UI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-21T15:57:11.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LoopBound UI.csproj",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\LoopBound UI.csproj",
               "RelativeDocumentMoniker": "LoopBound UI\\LoopBound UI.csproj",
@@ -85,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "LoopBound UI\\MainWindow.xaml.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml.cs",
               "RelativeToolTip": "LoopBound UI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAIwGwAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T15:57:08.21Z",
               "EditorCaption": ""

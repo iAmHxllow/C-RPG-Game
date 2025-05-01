@@ -35,6 +35,9 @@ namespace LoopBound_UI
             DataContext = _gameSession;
         }
 
+        // Trigger area for map switch
+        private readonly Rect _mapSwitchTrigger = new Rect(344, 171, 99, 122); 
+
         /// Event handler for the Keyboard movement
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
@@ -86,11 +89,24 @@ namespace LoopBound_UI
 
             // Check if the new position intersects with any restricted zone
             Rect playerRect = new Rect(newMargin.Left, newMargin.Top, Player.ActualWidth, Player.ActualHeight);
+            
             if (!IsIntersectingRestrictedZones(playerRect))
             {
                 // Apply the updated margin back to the Player image
                 Player.Margin = newMargin;
+
+                // Check if the player enters the map switch trigger area
+                if (playerRect.IntersectsWith(_mapSwitchTrigger))
+                {
+                    SwitchBackgroundMap("Assets/Room.png");
+                }
             }
+        }
+
+        private void SwitchBackgroundMap(string newMapPath)
+        {
+            // Update the background map
+            Background_Map.Source = new BitmapImage(new Uri(newMapPath, UriKind.Relative));
         }
 
         private bool IsIntersectingRestrictedZones(Rect playerRect)

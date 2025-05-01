@@ -21,13 +21,24 @@
 
         <!-- Background Map -->
         <Label x:Name="MainScreen" Grid.Row="0" Grid.Column="0" Background="Black">
-            <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Map 1.png" Width="770" Height="504"/>
+            <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Home.png" Width="770" Height="504"/>
         </Label>
 
+        <!-- Restricted Zone 1 -->
+        <Rectangle x:Name="RestrictedZone1" 
+           Width="113" Height="75" 
+           Fill="Red" Opacity="0.5" 
+           HorizontalAlignment="Left" VerticalAlignment="Top" 
+           Margin="347,412,0,0" />
+
+        <!-- Player -->
         <Image x:Name="Player" Source="/Assets/Player.png" Margin="22,286,660,127" Cursor="ArrowCD"/>
+
+        <!-- Bottom UI -->
         <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">
             <Image x:Name="UI_Bar" Source="/Assets/Normal UI Bar.png" Stretch="Fill" Width="770"/>
         </Label>
+        
         <Image x:Name="Heart_Icon" Margin="34,57,680,57" Source="/Assets/Heart Icon.png" Grid.Row="1"/>
 
     </Grid>
