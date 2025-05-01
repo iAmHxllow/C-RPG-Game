@@ -10,7 +10,10 @@
         },
         "runtime": {
           "bin/placeholder/Engine.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
