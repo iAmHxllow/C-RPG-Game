@@ -13,7 +13,12 @@
     <None Remove="Assets\Heart Icon.png" />
     <None Remove="Assets\Normal UI Bar.png" />
     <None Remove="Assets\Player.png" />
+    <None Remove="Assets\QuestMap1.gif" />
     <None Remove="Assets\Room.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,10 +27,17 @@
 
   <ItemGroup>
     <Resource Include="Assets\Heart Icon.png" />
-    <Resource Include="Assets\Home.png" />
+    <Resource Include="Assets\Home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\Normal UI Bar.png" />
     <Resource Include="Assets\Player.png" />
-    <Resource Include="Assets\Room.png" />
+    <Resource Include="Assets\QuestMap1.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\Room.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

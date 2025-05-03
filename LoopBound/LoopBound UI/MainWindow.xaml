@@ -26,13 +26,13 @@
 
         <!-- Restricted Zone 1 -->
         <Rectangle x:Name="RestrictedZone1" 
-           Width="390" Height="171" 
+           Width="44" Height="60" 
            Fill="Red" Opacity="0.5" 
            HorizontalAlignment="Left" VerticalAlignment="Top" 
-           Margin="203,10,0,0" />
+           Margin="150,257,0,0" />
 
         <!-- Player -->
-        <Image x:Name="Player" Source="/Assets/Player.png" Margin="22,286,660,127" Cursor="ArrowCD"/>
+        <Image x:Name="Player" Source="/Assets/Player.png" Margin="18,312,664,101" Cursor="ArrowCD"/>
 
         <!-- Bottom UI -->
         <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">

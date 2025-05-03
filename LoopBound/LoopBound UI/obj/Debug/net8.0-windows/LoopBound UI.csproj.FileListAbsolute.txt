@@ -48,3 +48,4 @@ C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.
 C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.pdb
 C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\LoopBound UI.genruntimeconfig.cache
 C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\obj\Debug\net8.0-windows\ref\LoopBound UI.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\LoopBound UI\bin\Debug\net8.0-windows\WpfAnimatedGif.dll
