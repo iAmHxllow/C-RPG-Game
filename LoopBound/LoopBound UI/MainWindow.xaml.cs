@@ -59,21 +59,65 @@ namespace LoopBound_UI
             roomMap.AddMapSwitchTrigger(347, 412, 113, 75, "Assets/Home.png");
 
             var questMap = new Map("Assets/QuestMap1.gif", new Thickness(40, 269, 686, 175));
-            questMap.AddRestrictedZone(10, 10, 135, 212);
+            questMap.AddRestrictedZone(10, 10, 25, 190);
+            questMap.AddRestrictedZone(77, 10, 67, 216);
             questMap.AddRestrictedZone(150, 10, 620, 75);
             questMap.AddRestrictedZone(250, 90, 520, 167);
             questMap.AddRestrictedZone(10, 393, 135, 111);
             questMap.AddRestrictedZone(150, 426, 434, 78);
             questMap.AddRestrictedZone(589,393, 37, 111);
-            questMap.AddRestrictedZone(542, 262, 228, 75);
-            questMap.AddRestrictedZone(726, 342, 44, 78);
+            questMap.AddRestrictedZone(542, 262, 228, 65);
             questMap.AddRestrictedZone(631, 487, 94, 17);
-            questMap.AddMapSwitchTrigger(10, 269, 22, 73, "Assets/Home.png");
+            questMap.AddRestrictedZone(365, 272, 44, 51);
+            questMap.AddMapSwitchTrigger(10, 269, 7, 72, "Assets/Home.png");
+            questMap.AddMapSwitchTrigger(728, 425, 22,54, "Assets/QuestMap2.png");
+            questMap.AddMapSwitchTrigger(40, 174, 32, 58, "Assets/VendorRoute.png");
+
+            var questMap2 = new Map("Assets/QuestMap2.png", new Thickness(30, 47, 700, 381));
+            questMap2.AddRestrictedZone(96, 10, 244, 111);
+            questMap2.AddRestrictedZone(345, 48, 90, 166);
+            questMap2.AddRestrictedZone(440, 10, 330, 121);
+            questMap2.AddRestrictedZone(10, 160, 36, 344);
+            questMap2.AddRestrictedZone(141, 240, 80, 166);
+            questMap2.AddRestrictedZone(267, 203, 20, 108);
+            questMap2.AddRestrictedZone(345, 322, 20, 108);
+            questMap2.AddRestrictedZone(477, 306, 90, 166);
+            questMap2.AddRestrictedZone(655, 203, 69, 175);
+            questMap2.AddRestrictedZone(51, 456, 413, 48);
+            questMap2.AddRestrictedZone(469, 475, 117, 29);
+            questMap2.AddRestrictedZone(661, 456, 109, 48);
+            questMap2.AddMapSwitchTrigger(35, 10, 45, 24, "Assets/QuestMap1.gif");
+            questMap2.AddMapSwitchTrigger(599, 447, 46, 48, "Assets/QuestMap3.png");
+
+            var questMap3 = new Map("Assets/QuestMap3.png", new Thickness(254, 70, 470, 371));
+            questMap3.AddRestrictedZone(10, 10, 225, 427);
+            questMap3.AddRestrictedZone(334, 13, 436, 144);
+            questMap3.AddRestrictedZone(236, 224, 260, 213);
+            questMap3.AddRestrictedZone(592, 233, 178, 50);
+            questMap3.AddRestrictedZone(11, 442, 67, 62);
+            questMap3.AddRestrictedZone(717, 322, 9, 16); // Flower
+            questMap3.AddRestrictedZone(717, 452, 9, 16); // Flower
+            questMap3.AddMapSwitchTrigger(245, 13, 75, 34, "Assets/QuestMap2.png");
+
+            var VendorRoute = new Map("Assets/VendorRoute.png", new Thickness(363, 334, 363, 97));
+            VendorRoute.AddRestrictedZone(10, 0, 276, 494);
+            VendorRoute.AddRestrictedZone(300, 80, 26, 86);
+            VendorRoute.AddRestrictedZone(452, 80, 26, 86);
+            VendorRoute.AddRestrictedZone(494, 0, 276, 494);
+            VendorRoute.AddRestrictedZone(291, 327, 37, 170);
+            VendorRoute.AddRestrictedZone(446, 327, 43, 170);
+            VendorRoute.AddMapSwitchTrigger(346, 437, 84, 44, "Assets/QuestMap1.gif");
+            VendorRoute.AddMapSwitchTrigger(347, 80, 84, 86, "Assets/Room.png"); // Change to Vendor
+
 
             // Add maps to the dictionary
             _backgroundMaps.Add(homeMap.MapPath, homeMap);
             _backgroundMaps.Add(roomMap.MapPath, roomMap);
             _backgroundMaps.Add(questMap.MapPath, questMap);
+            _backgroundMaps.Add(questMap2.MapPath, questMap2);
+            _backgroundMaps.Add(questMap3.MapPath, questMap3);
+            _backgroundMaps.Add(VendorRoute.MapPath, VendorRoute);
+
 
             // Set the initial map
             SwitchBackgroundMap("Assets/Home.png");
@@ -169,6 +213,16 @@ namespace LoopBound_UI
             {
                 var image = new BitmapImage(new Uri(newMapPath, UriKind.Relative));
                 Background_Map.Source = image;
+            }
+
+            // Temporary fix for stretching on the VendorRoute map.
+            if (newMapPath.EndsWith("VendorRoute.png"))
+            {
+                Background_Map.Stretch = Stretch.Uniform;
+            }
+            else
+            {
+                Background_Map.Stretch = Stretch.Fill;
             }
 
             // Update zones and triggers

@@ -21,18 +21,18 @@
 
         <!-- Background Map -->
         <Label x:Name="MainScreen" Grid.Row="0" Grid.Column="0" Background="Black">
-            <Image x:Name="Background_Map" Stretch="Fill" Source="/Assets/Home.png" Width="770" Height="504"/>
+            <Image x:Name="Background_Map" Source="/Assets/QuestMap1.gif" Width="765" Height="497" Stretch="Fill"/>
         </Label>
 
         <!-- Restricted Zone 1 -->
-        <Rectangle x:Name="RestrictedZone1" 
-           Width="44" Height="60" 
-           Fill="Red" Opacity="0.5" 
-           HorizontalAlignment="Left" VerticalAlignment="Top" 
-           Margin="150,257,0,0" />
+        <Rectangle x:Name="RestrictedZone1_Copy8" 
+            Width="7" Height="72" 
+            Fill="Red" Opacity="0" 
+            HorizontalAlignment="Left" VerticalAlignment="Top" 
+            Margin="10,269,0,0" />
 
         <!-- Player -->
-        <Image x:Name="Player" Source="/Assets/Player.png" Margin="18,312,664,101" Cursor="ArrowCD"/>
+        <Image x:Name="Player" Source="/Assets/Player.png" Margin="32,257,694,174" Cursor="ArrowCD"/>
 
         <!-- Bottom UI -->
         <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">
