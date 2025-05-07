@@ -68,7 +68,7 @@ namespace LoopBound_UI
             _mapBackgroundUpdater = new MapBackgroundUpdater(Background_Map, Player, SavePoint, _backgroundMaps);
 
             // Set the initial map
-            _mapBackgroundUpdater.SwitchToMap("Assets/Room.png", UpdateMapData);
+            _mapBackgroundUpdater.SwitchToMap("Assets/Home.png", UpdateMapData);
 
             //<-- Assets for each map -->
 
