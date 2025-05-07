@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\BossRoom.gif" />
     <None Remove="Assets\Heart Icon.png" />
     <None Remove="Assets\Normal UI Bar.png" />
     <None Remove="Assets\Player.png" />
@@ -17,7 +18,9 @@
     <None Remove="Assets\QuestMap2.png" />
     <None Remove="Assets\QuestMap3.png" />
     <None Remove="Assets\Room.png" />
+    <None Remove="Assets\SavePoint.gif" />
     <None Remove="Assets\VendorRoute.png" />
+    <None Remove="Assets\VendorShop.gif" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,6 +32,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Assets\BossRoom.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\Heart Icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
@@ -53,7 +59,13 @@
     <Resource Include="Assets\Room.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Assets\SavePoint.gif">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Assets\VendorRoute.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\VendorShop.gif">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

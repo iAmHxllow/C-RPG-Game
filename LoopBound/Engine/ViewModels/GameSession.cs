@@ -1,4 +1,4 @@
-﻿using Engine.Models;
+﻿using Engine.Models.Player;
 using System;
 using System.Collections.Generic;
 using System.Linq;

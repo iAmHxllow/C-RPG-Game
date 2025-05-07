@@ -3,114 +3,62 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\loopbound ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB9EDC53-8ABA-4D46-8F71-C2C75BF787C4}|LoopBound UI\\LoopBound UI.csproj|solutionrelative:loopbound ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\models\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\models\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\models\\mapswitchtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\models\\mapswitchtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\models\\restrictedzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\models\\restrictedzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|c:\\xampp\\htdocs\\code projects\\c# rpg game\\loopbound\\engine\\models\\maps\\mapbackgroundupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1EE8A24-D2DB-48BE-808D-5B2993B491C4}|Engine\\Engine.csproj|solutionrelative:engine\\models\\maps\\mapbackgroundupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 149,
+      "VerticalTabListWidth": 191,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 385,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapBackgroundUpdater.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Maps\\MapBackgroundUpdater.cs",
+              "RelativeDocumentMoniker": "Engine\\Models\\Maps\\MapBackgroundUpdater.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Maps\\MapBackgroundUpdater.cs",
+              "RelativeToolTip": "Engine\\Models\\Maps\\MapBackgroundUpdater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T01:24:43.189Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LoopBound UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LoopBound UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwJIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:36:06.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LoopBound UI\\MainWindow.xaml",
               "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml",
               "RelativeToolTip": "LoopBound UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-03T17:12:17.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "LoopBound UI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\LoopBound UI\\MainWindow.xaml.cs",
-              "RelativeToolTip": "LoopBound UI\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAQwOEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T17:17:17.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Map.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Map.cs",
-              "RelativeDocumentMoniker": "Engine\\Models\\Map.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Map.cs",
-              "RelativeToolTip": "Engine\\Models\\Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T21:34:08.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "Engine\\Models\\Player.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\Player.cs",
-              "RelativeToolTip": "Engine\\Models\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T22:04:42.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MapSwitchTrigger.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\MapSwitchTrigger.cs",
-              "RelativeDocumentMoniker": "Engine\\Models\\MapSwitchTrigger.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\MapSwitchTrigger.cs",
-              "RelativeToolTip": "Engine\\Models\\MapSwitchTrigger.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:41:59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RestrictedZone.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\RestrictedZone.cs",
-              "RelativeDocumentMoniker": "Engine\\Models\\RestrictedZone.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Models\\RestrictedZone.cs",
-              "RelativeToolTip": "Engine\\Models\\RestrictedZone.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T21:17:03.283Z",
+              "WhenOpened": "2025-05-05T19:36:01.69Z",
               "EditorCaption": ""
             }
           ]

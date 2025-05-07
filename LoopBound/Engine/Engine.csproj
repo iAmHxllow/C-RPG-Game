@@ -7,4 +7,13 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Folder Include="Models\Mobs\" />
+	  <Folder Include="Models\NPC%27s\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+	</ItemGroup>
+
 </Project>

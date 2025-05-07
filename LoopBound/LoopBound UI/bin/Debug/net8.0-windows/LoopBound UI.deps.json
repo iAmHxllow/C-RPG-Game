@@ -24,6 +24,9 @@
         }
       },
       "Engine/1.0.0": {
+        "dependencies": {
+          "WpfAnimatedGif": "2.0.2"
+        },
         "runtime": {
           "Engine.dll": {
             "assemblyVersion": "1.0.0.0",

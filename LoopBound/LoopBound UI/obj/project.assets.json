@@ -21,6 +21,9 @@
       "Engine/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "WpfAnimatedGif": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/Engine.dll": {}
         },

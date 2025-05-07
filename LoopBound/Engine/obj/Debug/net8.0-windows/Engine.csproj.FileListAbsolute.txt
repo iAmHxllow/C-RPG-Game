@@ -10,3 +10,4 @@ C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\Engine\obj\Debug\net8.0-wind
 C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\Engine\obj\Debug\net8.0-windows\refint\Engine.dll
 C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\Engine\obj\Debug\net8.0-windows\Engine.pdb
 C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\Engine\obj\Debug\net8.0-windows\ref\Engine.dll
+C:\xampp\htdocs\Code Projects\C# RPG Game\LoopBound\Engine\obj\Debug\net8.0-windows\Engine.csproj.AssemblyReference.cache

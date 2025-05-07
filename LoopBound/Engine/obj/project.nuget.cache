@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7emYQ8mGx4Q=",
+  "dgSpecHash": "sZYWFXMlxgU=",
   "success": true,
   "projectFilePath": "C:\\xampp\\htdocs\\Code Projects\\C# RPG Game\\LoopBound\\Engine\\Engine.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\David\\.nuget\\packages\\wpfanimatedgif\\2.0.2\\wpfanimatedgif.2.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

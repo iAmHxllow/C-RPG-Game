@@ -21,25 +21,31 @@
 
         <!-- Background Map -->
         <Label x:Name="MainScreen" Grid.Row="0" Grid.Column="0" Background="Black">
-            <Image x:Name="Background_Map" Source="/Assets/QuestMap1.gif" Width="765" Height="497" Stretch="Fill"/>
+            <Image x:Name="Background_Map" Source="/Assets/Room.png" Width="765" Height="497" Stretch="Fill"/>
         </Label>
 
-        <!-- Restricted Zone 1 -->
+        <!-- ASSETS -->
+
+        <!-- Room.png -->
+
+        <!-- Example restricted zone rectangle so i can know what position / cordinates i need -->
+        <Image x:Name="SavePoint" Source="/Assets/SavePoint.gif" Margin="346,171,332,264"/>
         <Rectangle x:Name="RestrictedZone1_Copy8" 
-            Width="7" Height="72" 
+            Width="66" Height="73" 
             Fill="Red" Opacity="0" 
             HorizontalAlignment="Left" VerticalAlignment="Top" 
-            Margin="10,269,0,0" />
+            Margin="437,245,0,0" />
 
         <!-- Player -->
         <Image x:Name="Player" Source="/Assets/Player.png" Margin="32,257,694,174" Cursor="ArrowCD"/>
 
         <!-- Bottom UI -->
         <Label x:Name="BottomUI" Grid.Row="1" Grid.Column="0" Background="Black">
+
+            <!-- Normal UI Bar -->
             <Image x:Name="UI_Bar" Source="/Assets/Normal UI Bar.png" Stretch="Fill" Width="770"/>
         </Label>
-
         <Image x:Name="Heart_Icon" Margin="34,57,680,57" Source="/Assets/Heart Icon.png" Grid.Row="1"/>
-
+        
     </Grid>
 </Window>
